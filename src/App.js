@@ -52,7 +52,7 @@ class App extends Component {
         <Navbar fluid collapseOnSelect>
           <Navbar.Header>
             <Navbar.Brand>
-              <Link to="/">Cognito Demo</Link>
+              <Link to="/">DB POC</Link>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>

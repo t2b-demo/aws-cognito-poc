@@ -28,8 +28,8 @@ export default class Home extends Component {
     return (
       <div className="Home">
         <div className="landing">
-          <h1>Cognito Demo</h1>
-          <p>A simple Login app</p>
+          <h1>DB POC</h1>
+          <p>A simple turtle DB POC</p>
         </div>
       </div>
     );
