@@ -1,0 +1,6 @@
+# ------------ Create User ---------------------
+aws cognito-idp sign-up --region eu-central-1 --client-id 4ga1j0au5hrt4j2j8jg4f0qapl --username admin@example.com --password Passw0rd!
+
+# ------------- Confirm created User -----------
+aws cognito-idp admin-confirm-sign-up --region eu-central-1 --user-pool-id eu-central-1_JpOAfqMqV --username admin@example.com
+
