@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import "./Home.css";
+import AuthPage from './AuthPage'
 
 export default class Home extends Component {
   constructor(props) {
     super(props);
-
     this.state = {
       isLoading: true
     };
@@ -37,12 +37,7 @@ export default class Home extends Component {
 
   renderAuthPage() {
     return (
-      <div className="AuthPage">
-      <div className="landing">
-        <h1>Cognito Authentication Demo</h1>
-        <p>Consider yourself happy if you could see this...</p>
-      </div>
-    </div>
+      <AuthPage />
     );
   }
 

@@ -28,9 +28,8 @@ export default class Login extends Component {
 
   handleSubmit = async event => {
     event.preventDefault();
-  
     this.setState({ isLoading: true });
-  
+
     try {
       await Auth.signIn(this.state.email, this.state.password);
       this.props.userHasAuthenticated(true);
